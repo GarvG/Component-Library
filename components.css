@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Raleway:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root
+{
+    --sidebarcolor:#F3C5C5;
+    --headercolor:#570530;
+    
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar{
+    position: fixed;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    background: var(--sidebarcolor);
+}
+.sidebar header
+{
+    font-size: 1.5rem;
+    color:white;
+    text-align: center;
+    line-height: 70px;
+    background: var(--headercolor);
+}
+.sidebar ul a
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 1.2rem;
+    color: white;
+    padding-left: 2rem;
+    border-top: 0.1rem solid rgba(255, 255, 255, .1);
+    border-bottom: 0.1rem solid black;
+    text-decoration: none;
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 2.5rem;   
+}
