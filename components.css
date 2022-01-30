@@ -6,9 +6,9 @@
 }
 :root
 {
-    --sidebarcolor:#F3C5C5;
-    --headercolor:#570530;
-    
+    --sidebarcolor:#F2F5C8;
+    --headercolor:#C1DEAE;
+    --containercolor:#FFCBCB
     
 }
 
@@ -37,7 +37,7 @@ body{
     width: 100%;
     line-height: 65px;
     font-size: 1.2rem;
-    color: white;
+    color: black;
     padding-left: 2rem;
     border-top: 0.1rem solid rgba(255, 255, 255, .1);
     border-bottom: 0.1rem solid black;
@@ -47,3 +47,31 @@ body{
 ul li:hover a{
     padding-left: 2.5rem;   
 }
+
+.sidebar
+{
+    grid-area: sidebar;
+}
+.head
+{
+    grid-area: head;
+    text-align: center;
+    font-weight: 600;
+    background-color: #FFDEFA;
+    height: 60px;
+    padding-top: 10px;
+    font-size: 1rem;
+}
+.main
+{
+    grid-area: main;
+}
+.wrapper {
+    display: grid;
+  
+    grid-template-areas:
+      "sidebar"
+      "head"
+      "main";
+      
+  }
