@@ -1,0 +1,83 @@
+@import url(components.css);
+
+h2
+{
+    text-align: center;
+}
+main{
+    text-align: center;
+   
+    
+}
+.XXL
+{
+    padding:10px;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+
+}
+.XL
+{
+    padding:10px;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+.L{
+    padding: 10px;
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+}
+.M{
+    padding: 10px;
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+}
+
+.S
+{
+    padding: 10px;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    
+
+}
+.S-XXL
+{
+    padding:10px;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 15px;
+}
+.S-XL
+{
+    padding:10px;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 15px;
+}
+.S-L
+{
+    padding:10px;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 15px;
+}
+.S-M
+{
+    padding:10px;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 15px;
+}.S-S
+{
+    padding:10px;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 15px;
+}
+
