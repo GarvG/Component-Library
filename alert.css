@@ -1,5 +1,4 @@
 @import url(components.css);
-
 .content{
     margin: 10px;
     padding: 10px;
@@ -7,7 +6,6 @@
     font-weight: 700;
     text-align: center;
 }
-
 .content-background
 {
     height: fit-content;
@@ -21,8 +19,6 @@
 {
     background-color: var(--danger);
 }
-
-
 .content.content-background.S
 {
    background-color: var(--success);
@@ -31,12 +27,10 @@
 .content.content-background.I{
 background-color:var(--info);
 }
-
-.content.content-background.W{
-    background-color:var(--warning);
-    }
-    
-
+.content.content-background.W
+{
+background-color:var(--warning);
+}
 .content.content-background:hover{
     cursor: pointer;
     transform: scale(1.04);
