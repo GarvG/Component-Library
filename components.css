@@ -13,7 +13,7 @@
     --success:#BAFFB4;
     --info:#9AD0EC;
     --warning:#FFE162;
-
+    --boxshawdow: #888888;
     
 }
 
@@ -84,8 +84,7 @@ ul li:hover a{
       "main";
       
   }
-
-  .container
+ .container
 {
     height: fit-content;
     background-color: var(--containercolor);

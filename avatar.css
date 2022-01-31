@@ -15,6 +15,7 @@ main{
     border-radius: 50%;
     height: 12rem;
     width: 12rem;
+
 }
 .XL
 {
@@ -35,12 +36,14 @@ main{
     height: 6rem;
     width: 6rem;
 }
+
 .S
 {
     padding: 10px;
     border-radius: 50%;
     height: 4rem;
     width: 4rem;
+    
 
 }
 .S-XXL
