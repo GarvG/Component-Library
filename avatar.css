@@ -9,19 +9,7 @@ main{
    
     
 }
-.avatar-container
-{
-    height: fit-content;
-    background-color: var(--containercolor);
-    width: fit-content;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    border-radius: 15px;
-    padding: 20px;
-}
+
 .XXL
 {
     padding:10px;
@@ -51,12 +39,6 @@ main{
     width: 4rem;
 
 }
-.Doc-Round-img
-{
-    height: 25rem;
-    width: 100%;
-}
-
 .S-XXL
 {
     padding:10px;
@@ -90,8 +72,5 @@ main{
     height: 4rem;
     width: 4rem;
     border-radius: 15px;
-}.S-XS
-
-h3{
-    text-align: center;
 }
+

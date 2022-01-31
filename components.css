@@ -8,7 +8,12 @@
 {
     --sidebarcolor:#F2F5C8;
     --headercolor:#C1DEAE;
-    --containercolor:#FFCBCB
+    --containercolor:#FFCBCB;
+    --danger:#FF1700;
+    --success:#BAFFB4;
+    --info:#9AD0EC;
+    --warning:#FFE162;
+
     
 }
 
@@ -56,22 +61,65 @@ ul li:hover a{
 {
     grid-area: head;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     background-color: #FFDEFA;
     height: 60px;
     padding-top: 10px;
-    font-size: 1rem;
-}
+    font-size: 1.5rem;  
+    padding-left: 250px;
+   
+} 
+
 .main
 {
     grid-area: main;
 }
 .wrapper {
     display: grid;
-  
+    
+   
     grid-template-areas:
-      "sidebar"
       "head"
+      "sidebar"
       "main";
       
   }
+
+  .container
+{
+    height: fit-content;
+    background-color: var(--containercolor);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    padding-left: 250px;
+}
+
+.i-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Doc-img
+{
+    height: 20rem;
+    width: fit-content;
+
+}
+.headers{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+}
