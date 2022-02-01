@@ -1,0 +1,106 @@
+@import url(components.css);
+.button{
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.button-P
+{
+background-color: var(--primarycolor);
+}
+.button-S
+{
+    background-color:var(--success);
+}
+.button-I
+{
+    background-color:var(--info);
+}
+.button-D
+{
+    background-color: var(--danger);
+}
+.button-W
+{
+    background-color: var(--warning);
+}
+.button-con
+{
+    display: flex;
+}
+.button:hover
+{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.button-Sec-P
+{
+    border-color: var(--primarycolor);
+}
+.button-Sec-S
+{
+    border-color: var(--success);
+}
+.button-Sec-I
+{
+    border-color: var(--info);
+}
+.button-Sec-D
+{
+    border-color: var(--danger);
+}
+.button-Sec-W
+{
+border-color: var(--warning);
+}
+.button-Sec
+{
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 10px;
+  
+    color: black;
+  
+    border-width: 3px;
+}
+.button-Icon
+{
+    background-color: var(--ButtonLink);
+    border: none; 
+    color: black; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer;   
+    margin: 10px;
+}
+.floating-con
+{
+    /* position: fixed;
+    right: 18px;
+  */
+    width: 80px;
+    height: 80px;
+    background-color:var(--primarycolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:white;
+    font-size: 40px;
+    box-shadow: 2px 2px 5px var(--boxshawdow);
+    margin: 10px;
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    transition: 1s;
+}
+.floating-con:hover
+{
+background-color: var(--success);
+cursor: pointer;
+}

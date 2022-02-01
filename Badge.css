@@ -1,0 +1,183 @@
+@import url(components.css);
+.badge-button
+{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color:black;
+    background-color: #dddd;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.badge-button--icon
+{
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    background-color: #F90716;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.badge-button:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #A2D5F2;
+}
+.text-badge{
+    border: none;
+    height: 20px;
+    margin: 20px 15px 0px 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-badge--icon
+{
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 50%;
+    height: 15px;
+    width: 20px;
+    }
+
+ .disable-badge
+ {
+     height:30px;
+     width: 40px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items:center; 
+ }   
+
+ .disable-badge-icon
+ {
+     position: absolute;
+     top:-10px;
+     right:-10px;
+     background-color: #3f51b5;
+     
+     height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    color: white;
+    padding-top: 4px;
+ }
+ .disable-badge--content
+ {
+     margin: 10px 5px 0px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+ 
+.disable-badge:hover
+{
+    color:#C1A3A3;
+    transform: scale(1.03);
+    cursor: pointer;
+       
+}
+.badges
+{
+    display: flex;
+    
+}
+.IMG-XXL
+{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    position: relative;
+    margin: 10px;
+}
+.badge-avatar--icon-XXL{
+    position: absolute;
+    background-color: var(--badgecolor);
+    right: 820px;
+    bottom: -135px;
+    border-radius: 50%;
+    padding: 12px;
+}
+.IMG-XL
+{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    position: relative;
+    margin: 10px;
+}
+.badge-avatar--icon-XL{
+    position: absolute;
+    background-color:var(--badgecolor);
+    right: 630px;
+    bottom: -90px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.IMG-L{
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+}
+.badge-avatar--icon-L{
+    position: absolute;
+    background-color: var(--badgecolor);
+    bottom: -50px;
+    right: 470px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.IMG-M{
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+}
+.badge-avatar--icon-M{
+    position: absolute;
+    background-color: var(--badgecolor);
+    right: 355px;
+    bottom: -30px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.IMG-S
+{
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem; 
+}
+.badge-avatar--icon-S{
+    position: absolute;
+    background-color:var(--badgecolor);
+    bottom: -7px;
+    right: 263px;
+    border-radius: 50%;
+    padding: 10px;
+}
