@@ -103,8 +103,8 @@
 {
     object-fit: cover;
     border-radius: 50%;
-    height: 12rem;
-    width: 12rem;
+    height: 192px;
+    width: 192px;
     position: relative;
     margin: 10px;
 }
@@ -120,8 +120,8 @@
 {
     object-fit: cover;
     border-radius: 50%;
-    height: 10rem;
-    width: 10rem;
+    height: 160px;
+    width: 160px;
     position: relative;
     margin: 10px;
 }
@@ -138,8 +138,8 @@
     margin: 10px;
     object-fit: cover;
     border-radius: 50%;
-    height: 8rem;
-    width: 8rem;
+    height: 128px;
+    width: 128px;
 }
 .badge-avatar--icon-L{
     position: absolute;
@@ -154,8 +154,8 @@
     margin: 10px;
     object-fit: cover;
     border-radius: 50%;
-    height: 6rem;
-    width: 6rem;
+    height: 96px;
+    width: 96px;
 }
 .badge-avatar--icon-M{
     position: absolute;
@@ -170,8 +170,8 @@
     margin: 10px;
     object-fit: cover;
     border-radius: 50%;
-    height: 4rem;
-    width: 4rem; 
+    height: 64px;
+    width: 64px; 
 }
 .badge-avatar--icon-S{
     position: absolute;
