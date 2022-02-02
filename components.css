@@ -10,11 +10,13 @@
     --headercolor:#C1DEAE;
     --containercolor:#FFCBCB;
     --danger:#FF1700;
-    --success:#BAFFB4;
+    --success:#49FF00;
     --info:#9AD0EC;
     --warning:#FFE162;
     --boxshawdow: #888888;
-    
+    --badgecolor:#FFFCDC;
+    --primarycolor:#35589A;
+    --ButtonLink:#99FEFF;
 }
 
 body{
@@ -115,6 +117,7 @@ ul li:hover a{
 {
     height: 20rem;
     width: fit-content;
+    object-fit: cover;
 
 }
 .headers{
