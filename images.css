@@ -3,22 +3,25 @@
 .RES-IMG
 {
     height: auto;
-    width: 70%;
+    width: 100%;
 }
-.RES-IMG-ROUND
+.IMAGE-ROUND
 {
     border-radius: 50%;
-   
-    height: auto;
-    width: 20%;
-    object-fit:cover;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    aspect-ratio: 1;
 }
 .IMAGE
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
 }
-.img{
-    width: 7rem;
+.RES-IMG-ROUND
+{
+    object-fit: contain;
 }
