@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>INPUT</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <header>
+                My Components!
+            </header>
+            <ul>
+                <li><a href="avatar.html">AVATAR</a></li>
+                <li><a href="alert.html">ALERT</a></li>
+                <li><a href="Badge.html">BADGE</a></li>
+                <li><a href="Button.html">BUTTON</a></li>
+                <li><a href="CARD.HTML">CARD</a></li>
+                <li><a href="Images.Html">IMAGE</a></li>
+                <li><a href="Input.HTML">INPUT</a></li>
+            </ul>
+        </div>
+        <header class="head">
+            IMAGE!!
+        </header>
+
+        <div class="container">
+            <div class="i-container">
+                <div class="center-container">
+                    <h3 class="headers">TEXT-BOX<h3>
+                            <div class="text">
+                                <textarea rows="6" cols="70"
+                                    placeholder="This is a textarea where you can write stuff!">
+                                 </textarea>
+
+                            </div>
+                            <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=lucario&wt=none&l=auto&width=819.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2509%253Ctextarea%2520rows%253D%25226%2522%2520cols%253D%252270%2522%2520%250A%2509%2509placeholder%253D%2522This%2520is%2520a%2520textarea%2520where%2520you%2520can%2520write%2520stuff%21%2522%253E%250A%2520%2509%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
+                            style="width: 820px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                </div>
+
+                <div class="center-container">
+                    <h3 class="headers">FORM<h3>
+                            <div class="form">
+                                <form>
+                                    <table class="form-table">
+                                        <tr>
+                                            <td> Email:</td>
+                                            <td> <input type="email" placeholder="Enter Valid Email" required /> </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Password :</td>
+                                            <td> <input type="text" required> </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Date of Birth :</td>
+                                            <td> <input type="date" placeholder="DOB in between 1999 to 2005" max="2005-01-01" min="1999-01-01" required> </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> Year Of Passing :</td>
+                                            <td> <input type="number" max="2024" min="2018"
+                                                    placeholder="Passed Year Should be between 2018 to 2024" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Contact No :</td>
+                                            <td> <input type="number" required> </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type="submit" value="SUBMIT"></td>
+                                        </tr>
+                                    </table>
+                                </form>
+
+                            </div>
+                            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=lucario&wt=none&l=auto&width=819.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cform%253E%250A%2520%2520%2520%253Ctable%2520class%253D%2522form-table%2522%253E%250A%2520%2520%2520%253Ctr%253E%250A%2520%2520%2520%2520%2520%2509%253Ctd%253E%2520Email%253A%253C%252Ftd%253E%250A%2520%2520%2520%2520%2520%2509%253Ctd%253E%2520%253Cinput%2520type%253D%2522email%2522placeholder%253D%2522Enter%2520Valid%2520Email%2522required%2520%252F%253E%253C%252Ftd%253E%250A%2520%2520%2520%253C%252Ftr%253E%250A%2520%2520%2520%253Ctr%253E%250A%2520%2520%2520%2509%2509%253Ctd%253E%2520Password%2520%253A%253C%252Ftd%253E%250A%2520%2520%2520%2509%2509%253Ctd%253E%2520%253Cinput%2520type%253D%2522text%2522%2520required%253E%2520%253C%252Ftd%253E%250A%2520%2520%2520%253C%252Ftr%253E%250A%2520%2520%2520%253Ctr%253E%250A%2520%2520%2520%2509%2509%253Ctd%253E%2520Date%2520of%2520Birth%2520%253A%253C%252Ftd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253E%2520%253Cinput%2520type%253D%2522date%2522%2520placeholder%253D%2522DOB%2520in%2520between%25201999%2520to%25202005%2522%2520%2509%2509%2509%2509%2509%2509max%253D%25222005-01-01%2522%2520min%253D%25221999-01-01%2522%2520required%253E%2520%253C%252Ftd%253E%250A%250A%2520%2520%2520%253C%252Ftr%253E%250A%2520%2520%2520%253Ctr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253E%2520Year%2520Of%2520Passing%2520%253A%253C%252Ftd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253E%2520%253Cinput%2520type%253D%2522number%2522%2520max%253D%25222024%2522%2520min%253D%25222018%2522placeholder%253D%2522Passed%2520Year%2520%2520%2520%2520%2509%2509%2509Should%2520be%2520between%25202018%2520to%25202024%2522%2520required%253E%253C%252Ftd%253E%250A%2520%2520%2520%253C%252Ftr%253E%250A%2520%2520%2520%253Ctr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253E%2520Contact%2520No%2520%253A%253C%252Ftd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253E%2520%253Cinput%2520type%253D%2522number%2522%2520required%253E%2520%253C%252Ftd%253E%250A%2520%2520%2520%253C%252Ftr%253E%250A%2520%2520%2520%253Ctr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%2520colspan%253D%25222%2522%253E%253Cinput%2520type%253D%2522submit%2522%2520value%253D%2522SUBMIT%2522%253E%253C%252Ftd%253E%250A%2520%2520%2520%253C%252Ftr%253E%250A%2520%2520%2520%253C%252Ftable%253E%250A%2520%2520%2520%253C%252Fform%253E"
+  style="width: 820px; height: 728px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

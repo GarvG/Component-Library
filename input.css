@@ -1,0 +1,44 @@
+
+@import url(components.css);
+.form
+{
+    height: 25rem;
+    width: 32rem;
+    background-color:black;
+    padding: 20px;
+    margin: 20px;
+}
+.text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+textarea
+{
+   
+    color: black;
+    width: 40%
+
+}
+.form-table
+{
+    color:white;
+    margin-left: 10%;
+}
+.form-table input
+{
+padding: 5px;
+background: transparent;
+border: 1px solid white;
+color: white;
+margin: 5px;
+width: 17.5rem;
+}
+.form-table input[type="submit"]
+{
+    padding: 5px;
+    background: white;
+    border: 1px solid white;
+    color:black;
+}
