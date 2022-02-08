@@ -1,0 +1,40 @@
+@import url(components.css);
+.form
+{
+    height: 400px;
+    width: 500px;
+    background-color:black;
+    padding: 20px;
+    margin: 20px;
+}
+/* .text
+{
+    color: black;
+    border-radius: 10px;
+} */
+textarea
+{
+    color: black;
+
+}
+.form-table
+{
+    color:white;
+    margin-left: 10%;
+}
+.form-table input
+{
+padding: 5px;
+background: transparent;
+border: 1px solid white;
+color: white;
+margin: 5px;
+width: 280px;
+}
+.form-table input[type="submit"]
+{
+    padding: 5px;
+    background: white;
+    border: 1px solid white;
+    color:black;
+}

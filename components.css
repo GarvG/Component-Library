@@ -8,7 +8,7 @@
 {
     --sidebarcolor:#F2F5C8;
     --headercolor:#C1DEAE;
-    --containercolor:#FFCBCB;
+    --containercolor:#EEEEEE;
     --danger:#FF1700;
     --success:#49FF00;
     --info:#9AD0EC;
@@ -64,7 +64,7 @@ ul li:hover a{
     grid-area: head;
     text-align: center;
     font-weight: 700;
-    background-color: #FFDEFA;
+    background-color: #00ADB5;
     height: 60px;
     padding-top: 10px;
     font-size: 1.5rem;  
@@ -115,7 +115,7 @@ ul li:hover a{
 }
 .Doc-img
 {
-    height: 20rem;
+    height: 22rem;
     width: fit-content;
     object-fit: cover;
 

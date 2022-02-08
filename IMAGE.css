@@ -1,0 +1,11 @@
+@import url(components.css);
+.RES-IMG
+{
+    height: auto;
+    width: 80%;
+}
+.RES-IMG-ROUND
+{
+    border-radius: 50%;
+    height: 200px;
+}
