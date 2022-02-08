@@ -7,14 +7,17 @@
     padding: 20px;
     margin: 20px;
 }
-/* .text
+.text
 {
-    color: black;
-    border-radius: 10px;
-} */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
 textarea
 {
+   
     color: black;
+    width: 40%
 
 }
 .form-table

@@ -2,10 +2,22 @@
 .RES-IMG
 {
     height: auto;
-    width: 80%;
+    width: 70%;
 }
 .RES-IMG-ROUND
 {
     border-radius: 50%;
-    height: 200px;
+   
+    height: auto;
+    width: 20%;
+    object-fit:cover;
+}
+.IMAGE
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 100px;
 }
