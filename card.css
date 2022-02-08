@@ -1,0 +1,181 @@
+@import url(components.css);
+.card{
+    background-color:var(--background-card);
+    width: 330px;
+    height: 490px;
+    transition: 0.8s;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.card:hover
+{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 5px var(--boxshawdow);
+}
+.card-image
+{
+    height: 150px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.tag
+{
+    color: var(--background-card);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: red;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 2px;
+    border-radius: 6px;
+}
+.card-1
+{
+    height: 150px;
+    width: 330px;
+    object-fit: cover;
+}
+h2
+{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+small
+{
+    margin-left: 26px;
+    font-size: 20px;
+    font-weight: 500;
+}
+p
+{
+    margin: 10px 5px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.Price-old
+{
+    text-decoration: line-through;
+    display: inline;
+    margin: 10px 5px;
+}
+.card-price
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ADDTOCART
+{
+
+    font-size: 18px;
+    padding: 1px;
+    background-color: black;
+    color: var(--background-card);
+    text-decoration: none;
+    border-radius: 10px;
+}
+.CART{
+    font-size: 16px;
+    padding: 1px;
+}
+.ADDTOCART:hover{
+    transform: scale(1.04);
+    box-shadow: 5px 5px 5px var(--boxshawdow);
+    cursor: pointer;
+}
+.Buttons 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-Hori
+{
+    width: 600px;
+    height: 350px;
+    background-color:var(--background-card);
+    display: flex;
+    transition: 0.8s;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.card-Hori:hover
+{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 5px var(--boxshawdow);
+}
+.card-image-Hori
+{
+    width: 300px;
+    height: 350px;
+    margin-right: 10px;
+    position: relative;
+}
+.card-1-Hori
+{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+.tag-Hori
+{
+    color: var(--background-card);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: red;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.card-over{
+    background-color: var(--background-card);
+    width: 330px;
+    height: 520px;
+    transition: 0.8s;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-over:hover
+{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 5px var(--boxshawdow);
+}
+
+.Overlay{
+    position: relative;
+    top: -60px;
+    left: 100px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 170px;
+}
+.card-blur
+{
+    opacity: 0.6;
+}
+.card-TEXT
+{
+    background-color: white;
+    width: 330px;
+    height: 320px;
+    transition: 0.8s;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.card-TEXT:hover
+{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 5px var(--boxshawdow);
+}
