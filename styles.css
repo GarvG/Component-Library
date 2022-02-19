@@ -6,3 +6,51 @@
 @import url(card.css);
 @import url(images.css);
 @import url(input.css);
+a{
+    text-decoration: none;
+}
+.icon
+{
+    height: 1.7rem;
+}
+.mainpage
+{
+    width: 100%;
+    height:10rem;
+}
+.row-1
+{
+    display: flex;
+}
+.col-1
+{
+    margin-top:10rem;
+    padding-right: 4rem;
+}
+.col-2
+{
+    height: 24rem;
+    margin: 2rem;
+}
+.mainpage-content
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+.mainpage-heading{
+    text-align: center;
+}
+.mainpage-image
+{
+    height: 20rem;
+}
+.mainpage-paragraph
+{
+    width: 50rem;
+}
+.mainpage-paragraph-content
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
