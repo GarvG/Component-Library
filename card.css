@@ -2,7 +2,7 @@
 .card{
     background-color:var(--background-card);
     width: 21rem;
-    height: 31rem;
+    height: 33.5rem;
     transition: 0.8s;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -24,7 +24,7 @@
     position: absolute;
     top: 5px;
     left: 5px;
-    background-color: red;
+    background-color: var(--danger);
     font-size: 1rem;
     font-weight: 800;
     padding: 2px;
@@ -95,8 +95,8 @@ p
 
 .card-Hori
 {
-    width: 600px;
-    height: 350px;
+    width: 37.5rem;
+    height: 25rem;
     background-color:var(--background-card);
     display: flex;
     transition: 0.8s;
@@ -110,15 +110,15 @@ p
 }
 .card-image-Hori
 {
-    width: 300px;
-    height: 350px;
+    width: 18.75rem;
+    height: 21.875rem;
     margin-right: 10px;
     position: relative;
 }
 .card-1-Hori
 {
-    width: 300px;
-    height: 350px;
+    width: 18.75rem;
+    height: 25rem;
     object-fit: cover;
 }
 .tag-Hori
@@ -127,7 +127,7 @@ p
     position: absolute;
     top: 5px;
     left: 5px;
-    background-color: red;
+    background-color: var(--danger);
     font-size: 16px;
     font-weight: 800;
     padding: 2px;
@@ -136,8 +136,8 @@ p
 
 .card-over{
     background-color: var(--background-card);
-    width: 330px;
-    height: 520px;
+    width: 22.5rem;
+    height: 36.5rem;
     transition: 0.8s;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -151,15 +151,15 @@ p
 
 .Overlay{
     position: relative;
-    top: -60px;
-    left: 100px;
-    font-size: 24px;
+    top: -3.75rem;
+    left: 6.25rem;
+    font-size: 2rem;
     font-weight: 700;
     background-color: black;
     color: white;
     border: none;
     border-radius: 6px;
-    width: 170px;
+    width: 11rem;
 }
 .card-blur
 {
@@ -168,8 +168,8 @@ p
 .card-TEXT
 {
     background-color: white;
-    width: 330px;
-    height: 320px;
+    width: 21rem;
+    height: 24rem;
     transition: 0.8s;
     border-radius: 5px;
     margin-bottom: 20px;
