@@ -6,6 +6,7 @@
 @import url(card.css);
 @import url(images.css);
 @import url(input.css);
+@import url(Text-Utilies.css);
 a{
     text-decoration: none;
 }

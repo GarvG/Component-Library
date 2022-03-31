@@ -1,0 +1,22 @@
+@import url(components.css);
+.Text-Headings{
+    line-height: 3rem;
+}
+.texth2 .Text-Headings{
+    text-align: none;
+}
+.text
+{
+    color:var(--textgray);
+    font-size: 2rem;
+}
+.Underlined
+{
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.Strike
+{
+    text-decoration: line-through;
+    font-size: 2rem;
+}
