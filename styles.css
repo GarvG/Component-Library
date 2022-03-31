@@ -7,6 +7,7 @@
 @import url(images.css);
 @import url(input.css);
 @import url(Text-Utilies.css);
+@import url(list.css);
 a{
     text-decoration: none;
 }
