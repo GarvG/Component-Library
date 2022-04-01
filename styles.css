@@ -8,6 +8,7 @@
 @import url(input.css);
 @import url(Text-Utilies.css);
 @import url(list.css);
+@import url(Navigation.css);
 a{
     text-decoration: none;
 }
