@@ -1,0 +1,21 @@
+@import url(components.css);
+.checked{
+    color:var(--danger);
+}
+.fa-star:hover{
+transform: scale(1.08);
+cursor: pointer;
+}
+.star{
+    font-size: 2rem;
+    margin: 10px;
+}
+.p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.hover:hover{
+    transform: scale(1.08);
+    color: var(--danger);
+    cursor: pointer;
+}
